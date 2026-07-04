@@ -1,0 +1,18 @@
+[project]
+name = "namepreview-cricut"
+title = "Namepreview Cricut"
+description = ""
+directory = "/home/ortiz/Dev/namepreview_cricut"
+
+[project.author]
+name = "Antonio Ortiz"
+username = "ortiz-antonio"
+url = "https://ortiz.studio"
+
+[project.links]
+repository = "git@github.com:ortiz-antonio/namepreview-cricut"
+homepage = "https://ortiz-antonio.github.io/namepreview-cricut"
+
+[templates]
+adapters = [ "astro" ]
+core = "core"
