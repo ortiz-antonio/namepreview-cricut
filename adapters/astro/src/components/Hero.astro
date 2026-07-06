@@ -9,10 +9,17 @@ const { data } = Astro.props as { data: HeroData }
     <div class="lg:grid lg:cols-3 lg:items-center lg:gap-xl flow">
       <div class="lg:col-span-2 flow">
         <h1 class="ui-text-title ui-text-title-1">{data.title}</h1>
+        <h2 class="ui-text-title ui-text-title-2">{data.subtitle}</h2>
         <p>{data.text}</p>
+        <p>{data.text2}</p>
+        <p>{data.text3}</p>
       </div>
 
-      <img src={data.image} alt="svg names" />
+      <div class="flex flex-col gap-5">
+        <img src={data.image_kenzie} alt="svg name kenzie" />
+        <img src={data.image_koryn} alt="svg name koryn" />
+        <img src={data.image_sofia} alt="svg name sofia" />
+      </div>
     </div>
   </div>
 </section>
