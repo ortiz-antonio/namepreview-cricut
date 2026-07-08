@@ -3,17 +3,15 @@ import type { HeroData } from '@core/content/types'
 const { data } = Astro.props as { data: HeroData }
 ---
 
-<section class="ui-section">
-  <div class="ui-section-container flow">
-    <div class="flow">
-      <h1 class="ui-text-title ui-text-title-1">{data.title}</h1>
-      <h2 class="ui-text-title ui-text-title-2">{data.subtitle}</h2>
-      <p>{data.text}</p>
-    </div>
-    <div class="flex flex-col flow">
-      <h3 class="ui-text-title ui-text-title-3">{data.text2}</h3>
-      <input type="text" disabled value="Kenzie, Koryn, Sofia" class="pa-s" />
-      <button class="ui-button pa-s" type="submit">Try the demo</button>
-    </div>
+<section class="ui-section flow">
+  <div class="flow">
+    <h1 class="ui-text-title ui-text-title-1">{data.title}</h1>
+    <h2 class="ui-text-title ui-text-title-2">{data.subtitle}</h2>
+    <p>{data.text}</p>
+  </div>
+  <div class="flex flex-col flow">
+    <h3 class="ui-text-title ui-text-title-3">{data.text2}</h3>
+    <input type="text" disabled value="Kenzie, Koryn, Sofia" class="pa-s" />
+    <button class="ui-button pa-s" type="submit">Try the demo</button>
   </div>
 </section>

@@ -11,7 +11,8 @@ const { hero } = landing as unknown as { hero: HeroData }
 ---
 
 <Layout>
-  <Hero data={hero} />
-  <Preview data={hero} />
-  <!-- <Vectors data={hero} /> -->
+  <div class="ui-section-container">
+    <Hero data={hero} />
+    <Preview data={hero} />
+  </div>
 </Layout>
