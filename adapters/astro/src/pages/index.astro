@@ -4,6 +4,7 @@ import landing from '@data/content/landing.json'
 
 import Layout from '../layouts/Layout.astro'
 import type { HeroData } from '@core/content/types'
+import Preview from 'src/components/Preview.astro'
 
 // const { hero, impact } = landing as { hero: HeroData; impact: StakeholderImpactData }
 const { hero } = landing as unknown as { hero: HeroData }
@@ -11,4 +12,6 @@ const { hero } = landing as unknown as { hero: HeroData }
 
 <Layout>
   <Hero data={hero} />
+  <Preview data={hero} />
+  <!-- <Vectors data={hero} /> -->
 </Layout>

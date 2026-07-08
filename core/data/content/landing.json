@@ -1,13 +1,15 @@
 {
   "hero": {
-    "title": "Custom Name SVGs for T-Shirts",
+    "title": "The Bulk T-shirt Orders Made Easy",
     "subtitle": "Generated instantly and cricut ready",
     "text": "Making custom family reunion shirts, bridal party tees, or birthday T-shirts?.",
-    "text2": "Typing names, adjusting fonts, and manually welding them in Design Space so they don't cut in separate pieces is a major bottleneck—especially when you have an order of 10+ shirts.",
+    "text2": "Names to generate",
     "text3": "",
     "image_kenzie": "images/np-launch-criccut-example-kenzie.svg",
     "image_kenzie_cut": "images/np-launch-criccut-example-kenzie-cut.svg",
     "image_koryn": "images/np-launch-criccut-example-koryn.svg",
-    "image_sofia": "images/np-launch-criccut-example-sofia.svg"
+    "image_koryn_cut": "images/np-launch-criccut-example-koryn-cut.svg",
+    "image_sofia": "images/np-launch-criccut-example-sofia.svg",
+    "image_sofia_cut": "images/np-launch-criccut-example-sofia-cut.svg"
   }
 }

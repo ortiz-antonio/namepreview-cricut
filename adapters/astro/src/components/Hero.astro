@@ -1,29 +1,19 @@
 ---
 import type { HeroData } from '@core/content/types'
-// import HeroSvg from '../../public/images/hero.svg'
 const { data } = Astro.props as { data: HeroData }
 ---
 
 <section class="ui-section">
   <div class="ui-section-container flow">
-    <div class="lg:grid lg:cols-3 lg:items-center lg:gap-xl flow">
-      <div class="lg:col-span-2 flow">
-        <h1 class="ui-text-title ui-text-title-1">{data.title}</h1>
-        <h2 class="ui-text-title ui-text-title-2">{data.subtitle}</h2>
-        <p>{data.text}</p>
-        <p>{data.text2}</p>
-        <p>{data.text3}</p>
-        <p>
-          I'm building a new feature for <a href="https://namepreview.app/demo/woodnames?name=Antonio">NamePreview</a> for
-          cricut users making different shirt styles.
-        </p>
-        <button class="ui-button pa-s">Try the demo</button>
-      </div>
-
-      <div class="flex flex-col gap-5">
-        <img src={data.image_kenzie} alt="svg name kenzie" />
-        <img src={data.image_kenzie_cut} alt="svg name kenzie cut file" />
-      </div>
+    <div class="flow">
+      <h1 class="ui-text-title ui-text-title-1">{data.title}</h1>
+      <h2 class="ui-text-title ui-text-title-2">{data.subtitle}</h2>
+      <p>{data.text}</p>
+    </div>
+    <div class="flex flex-col flow">
+      <h3 class="ui-text-title ui-text-title-3">{data.text2}</h3>
+      <input type="text" disabled value="Kenzie, Koryn, Sofia" class="pa-s" />
+      <button class="ui-button pa-s" type="submit">Try the demo</button>
     </div>
   </div>
 </section>
