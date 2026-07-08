@@ -9,6 +9,10 @@ const { data } = Astro.props as { data: HeroData }
     <h2 class="ui-text-title ui-text-title-2">{data.subtitle}</h2>
     <p>{data.text}</p>
   </div>
+  <p>
+    Or you can try the <a href="https://www.namepreview.app/demo/woodnames?name=Emma">Namepreview demo</a> to see the names
+    in differente styles
+  </p>
   <div class="flex flex-col flow">
     <h3 class="ui-text-title ui-text-title-3">{data.text2}</h3>
     <input type="text" disabled value="Kenzie, Koryn, Sofia" class="pa-s" />
