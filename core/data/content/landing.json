@@ -6,10 +6,10 @@
     "text2": "Names to generate",
     "text3": "",
     "image_kenzie": "images/np-launch-criccut-example-kenzie.svg",
-    "image_kenzie_cut": "images/np-launch-criccut-example-kenzie-cut.svg",
+    "image_kenzie_cut": "images/np-launch-criccut-example-kenzie-d-cut.svg",
     "image_koryn": "images/np-launch-criccut-example-koryn.svg",
-    "image_koryn_cut": "images/np-launch-criccut-example-koryn-cut.svg",
+    "image_koryn_cut": "images/np-launch-criccut-example-koryn-d-cut.svg",
     "image_sofia": "images/np-launch-criccut-example-sofia.svg",
-    "image_sofia_cut": "images/np-launch-criccut-example-sofia-cut.svg"
+    "image_sofia_cut": "images/np-launch-criccut-example-sofia-d-cut.svg"
   }
 }
