@@ -1,10 +1,10 @@
 {
   "hero": {
-    "title": "The Bulk T-shirt Orders Made Easy",
-    "subtitle": "Generated instantly and cricut ready",
-    "text": "Making custom family reunion shirts, bridal party tees, or birthday T-shirts?.",
-    "text2": "Names to generate",
-    "text3": "",
+    "title": "Stop welding names one by one.",
+    "subtitle": "Generate Cricut-ready SVGs for your entire order — instantly.",
+    "text": "Making custom shirts for family reunions, bridal parties, or birthdays? Typing each name, adjusting spacing, and welding them in Design Space is a major bottleneck. We are building a new SVG generator to automate this across multiple cut designs.",
+    "text2": "Try the SVG generator demo below:",
+    "text3": "This generator will integrate with NamePreview. Soon, you'll be able to let your clients preview their names in different fonts, and instantly download the welded, cut-ready SVGs for production.",
     "image_kenzie": "images/np-launch-criccut-example-kenzie.svg",
     "image_kenzie_cut": "images/np-launch-criccut-example-kenzie-d-cut.svg",
     "image_koryn": "images/np-launch-criccut-example-koryn.svg",
